@@ -1,0 +1,59 @@
+body {
+  font-family: 'Heebo', sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1e293b !important;
+}
+
+.navbar-brand {
+  font-weight: 800;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  padding: 80px 20px;
+  border-radius: 0 0 30px 30px;
+}
+
+/* כפתורים */
+.btn-primary {
+  background-color: #2563eb;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-success {
+  background-color: #22c55e;
+  border: none;
+}
+
+/* כרטיסים */
+.card {
+  border: none;
+  border-radius: 16px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* כותרות */
+h1, h2, h3 {
+  font-weight: 800;
+}
+
+/* Footer */
+footer {
+  background-color: #1e293b;
+  color: white;
+}
