@@ -7,78 +7,88 @@
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand" href="#">לומדים עם מיטל</a>
-    
-    <div>
-      <a class="nav-link d-inline text-white" href="index.html">עמוד הבית</a>
-      <span> | </span>
-      <a class="nav-link d-inline text-white" href="summaries.html">סיכומים</a>
+    <div class="container-fluid text-center">
+       <div class="row">
+        <!-- <div class="col"> -->
+            
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">לומדים עם מיטל</a>
+                
+                <div>
+                <a class="nav-link d-inline text-white" href="index.html">עמוד הבית</a>
+                <span> | </span>
+                <a class="nav-link d-inline text-white" href="summaries.html">סיכומים</a>
+                </div>
+            </div>
+            </nav>
+
+        <!-- </div> -->
+       </div>
+
+
+        <div class="row welcome">
+            <div class="col welcome">
+                <h1 class="display-5">ברוכים הבאים</h1>
+                <p class="lead">היי, נעים מאוד :) אני מיטל, מורה פרטית למתמטיקה שמלווה סטודנטים בשנתם הראשונה לתואר הראשון בקורסי המתמטיקה <br/> וגם מכינה תלמידי תיכון לבחינות הבגרות.</p>
+                <p class="lead">כאן תמצאו סיכומים לבגרות ולקורסים אקדמאיים שונים בעמוד הסיכומים. תהנו!</p>
+                <a href="summaries.html" class="btn btn-light mt-3 to_sum">לסיכומים</a>
+            </div>
+        </div>
+
+        <div class="row my_services">
+            <div class="col">
+                 <h2 class="text-center mb-4">השירותים שלי</h2>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">סיכומים</h5>
+                            <p>חומר מסודר וברור ללמידה עצמית</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">שיעורים פרטיים</h5>
+                        <p>ליווי אישי עד להצלחה</p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">הכנה לבגרות</h5>
+                        <p>שיטות עבודה וטיפים למבחן</p>
+                    </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        </div>
+        <!-- <a href="https://wa.me/0526889005" class="btn btn-success">
+        דברי איתי בוואטסאפ
+        </a> -->
+        <div class="row">            
+            <!-- Footer -->
+            <footer class="bg-dark text-white text-center py-3">
+            <p>© כל הזכויות שמורות</p>
+            </footer>
+        </div>
+        
     </div>
-  </div>
-</nav>
-
-<section class="bg-primary text-white text-center py-5">
-  <div class="container">
-    <h1 class="display-5">ברוכים הבאים</h1>
-    <p class="lead">היי, נעים מאוד :) אני מיטל, מורה פרטית למתמטיקה שמלווה סטודנטים בשנתם הראשונה לתואר הראשון בקורסי המתמטיקה <br/> וגם מכינה תלמידי תיכון לבחינות הבגרות.</p>
-    <p class="lead">כאן תמצאו סיכומים לבגרות ולקורסים אקדמאיים שונים בעמוד הסיכומים. תהנו!</p>
-    <a href="summaries.html" class="btn btn-light mt-3">לסיכומים</a>
-  </div>
-</section>
-
-<a href="https://wa.me/0526889005"
-   style="position:fixed; bottom:20px; left:20px;"
-   class="btn btn-success rounded-circle p-3">
-  💬
-</a>
-
-<!-- Services -->
-<section class="py-5">
-  <div class="container">
-    <h2 class="text-center mb-4">השירותים שלי</h2>
-
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">סיכומים</h5>
-            <p>חומר מסודר וברור ללמידה עצמית</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">שיעורים פרטיים</h5>
-            <p>ליווי אישי עד להצלחה</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">הכנה לבגרות</h5>
-            <p>שיטות עבודה וטיפים למבחן</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Footer -->
-<footer class="bg-dark text-white text-center py-3">
-  <p>© כל הזכויות שמורות</p>
-</footer>
 
 </body>
 </html>

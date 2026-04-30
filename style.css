@@ -57,3 +57,29 @@ footer {
   background-color: #1e293b;
   color: white;
 }
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.welcome {
+    padding: 5vw;
+    background-color: #ae69ec;
+}
+
+.my_services {
+    padding: 5vw;
+
+}
+
+.card {
+    margin: 2vw;
+}
+
+/* //#885daf; */
+.to_sum{
+    background-color: #1e293b ;
+    border-color: #1e293b;
+    color: white;
+}
