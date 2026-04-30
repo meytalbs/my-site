@@ -15,7 +15,7 @@ body {
 
 /* Hero */
 .hero {
-  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  background: linear-gradient(135deg, #ae69ec, #ae69ec);
   color: white;
   padding: 80px 20px;
   border-radius: 0 0 30px 30px;
@@ -23,12 +23,13 @@ body {
 
 /* כפתורים */
 .btn-primary {
-  background-color: #2563eb;
+  background-color: #ae69ec;
   border: none;
 }
 
-.btn-primary:hover {
-  background-color: #1d4ed8;
+.btn-primary:hover, .btn-outline-primary:hover {
+  background-color: #ae69ec;
+  border-color: #ae69ec;
 }
 
 .btn-success {
