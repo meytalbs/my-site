@@ -6,9 +6,16 @@ body {
 
 /* Navbar */
 .navbar {
-  background-color: #1e293b !important;
+  background-color: #081849 !important;
 }
 
+.nav-item {
+    margin-right: 5vw;
+}
+
+.nav-item:hover {
+    color: white;
+}
 .navbar-brand {
   font-weight: 800;
 }
@@ -65,10 +72,20 @@ body {
 }
 
 .welcome {
-    padding: 5vw;
-    background-color: #ae69ec;
+    padding: 1vw;
+    background-color: #fbe4d8;
 }
 
+.welcome-text {
+    padding: 6vw;
+}
+.welcome-img{
+    max-width: 80vw;
+}
+img {
+    max-width: 80vw;
+
+}
 .my_services {
     padding: 5vw;
 

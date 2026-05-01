@@ -19,14 +19,38 @@
             
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#">לומדים עם מיטל</a>
+            <div class="container-fluid">
                 
-                <div>
-                <a class="nav-link d-inline text-white" href="index.html">עמוד הבית</a>
-                <span> | </span>
-                <a class="nav-link d-inline text-white" href="summaries.html">סיכומים</a>
+                <img src="./assets/logo.svg" alt="Bootstrap" width="" height="50">
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">קצת עליי</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">המלצות</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">סיכומים</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                        </li> -->
+                    </ul>
                 </div>
+                <!-- <div>
+                    <a class="nav-link d-inline text-white" href="index.html">קצת עלי</a>
+                    <a class="nav-link d-inline text-white" href="index.html">המלצות</a>
+                    <a class="nav-link d-inline text-white" href="summaries.html">סיכומים</a>
+                </div> -->
             </div>
             </nav>
 
@@ -35,11 +59,12 @@
 
 
         <div class="row welcome">
-            <div class="col welcome">
-                <h1 class="display-5">ברוכים הבאים</h1>
-                <p class="lead">היי, נעים מאוד :) אני מיטל, מורה פרטית למתמטיקה שמלווה סטודנטים בשנתם הראשונה לתואר הראשון בקורסי המתמטיקה <br/> וגם מכינה תלמידי תיכון לבחינות הבגרות.</p>
-                <p class="lead">כאן תמצאו סיכומים לבגרות ולקורסים אקדמאיים שונים בעמוד הסיכומים. תהנו!</p>
-                <a href="summaries.html" class="btn btn-light mt-3 to_sum">לסיכומים</a>
+            <div class="col-12 col-lg-6 welcome-text">
+                <h1 class="">מורה פרטית למתמטיקה</h1>
+                <p class="lead">היי, נעים מאוד :) אני מיטל, מורה פרטית למתמטיקה שמלווה סטודנטים בשנתם הראשונה לתואר הראשון בקורסי המתמטיקה <br/> וגם מכינה תלמידי תיכון לבחינות הבגרות.</p>                            
+            </div>
+            <div class="col-12 col-lg-6 welcome-img">
+                <img src="./assets/me.png" alt="Bootstrap" width="" height="">            
             </div>
         </div>
 
