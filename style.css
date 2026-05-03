@@ -20,6 +20,10 @@ body {
   font-weight: 800;
 }
 
+#home-page-title {
+    font-size: calc(2.375rem + 2vw);;
+}
+
 /* Hero */
 .hero {
   background: linear-gradient(135deg, #ae69ec, #ae69ec);
@@ -30,13 +34,13 @@ body {
 
 /* כפתורים */
 .btn-primary {
-  background-color: #ae69ec;
+  background-color: #081849;
   border: none;
 }
 
 .btn-primary:hover, .btn-outline-primary:hover {
-  background-color: #ae69ec;
-  border-color: #ae69ec;
+  background-color: #213885;
+  border-color: #213885;
 }
 
 .btn-success {
@@ -72,16 +76,26 @@ body {
 }
 
 .welcome {
-    padding: 1vw;
+    padding: 10vw 1vw;
     background-color: #fbe4d8;
 }
 
 .welcome-text {
-    padding: 6vw;
+    padding: 4vw 1vw;
 }
 .welcome-img{
     max-width: 80vw;
 }
+
+.about {
+    padding: 5vw 10vw;
+    background-color: #fbe4d8;
+}
+
+#about-title{
+    font-size: calc(1.5rem + 2vw);
+}
+
 img {
     max-width: 80vw;
 
@@ -100,4 +114,14 @@ img {
     background-color: #1e293b ;
     border-color: #1e293b;
     color: white;
+}
+
+.services {
+    padding: 2vw 1vw;
+    background-color: #fbe4d8;
+}
+
+#services-title {
+    padding-bottom: 1rem;
+    font-size: calc(1.5rem + 2vw);
 }
