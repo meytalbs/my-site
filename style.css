@@ -1,7 +1,7 @@
 body {
   font-family: 'Heebo', sans-serif;
-  background-color: #f8fafc;
-  color: #1e293b;
+  background-color: #fbe4d8;
+  color: #081849;
 }
 
 /* Navbar */
@@ -25,12 +25,12 @@ body {
 }
 
 /* Hero */
-.hero {
+/* .hero {
   background: linear-gradient(135deg, #ae69ec, #ae69ec);
   color: white;
   padding: 80px 20px;
   border-radius: 0 0 30px 30px;
-}
+} */
 
 /* כפתורים */
 .btn-primary {
@@ -65,8 +65,8 @@ h1, h2, h3 {
 }
 
 /* Footer */
-footer {
-  background-color: #1e293b;
+#footer {
+  background-color: #081849;
   color: white;
 }
 
@@ -111,8 +111,8 @@ img {
 
 /* //#885daf; */
 .to_sum{
-    background-color: #1e293b ;
-    border-color: #1e293b;
+    background-color: #081849 ;
+    border-color: #081849;
     color: white;
 }
 
